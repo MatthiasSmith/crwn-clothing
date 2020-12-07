@@ -17,9 +17,12 @@
     }
   }
   .name,
-  .quantity,
-  .price {
+  .quantity {
     width: 23%;
+  }
+
+  .price {
+    width: 19%;
   }
 
   .quantity {
@@ -37,5 +40,11 @@
   .remove-button {
     padding-left: 12px;
     cursor: pointer;
+  }
+
+  @media screen and (max-width: 800px) {
+    .name {
+      padding-right: 7px;
+    }
   }
 }
